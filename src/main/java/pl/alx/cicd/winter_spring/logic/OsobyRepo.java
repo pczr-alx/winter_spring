@@ -15,6 +15,7 @@ public class OsobyRepo {
         this.baza.put("zosia", new Osoba("Zosia", "Samosia"));
 	    this.baza.put("kamil", new Osoba("Kamil", "Klaczkiewicz"));
         this.baza.put("patryk1", new Osoba("Patryk", "Fikołek"));
+        this.baza.put("janusz", new Osoba("Janusz", "Killer"));
     }
 
     public Optional<Osoba> getOsoba(String imie) {
