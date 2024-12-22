@@ -17,7 +17,7 @@ do
         kill $pid
         sleep 4
       fi
-      java -jar ap.jar &
+      java -jar apka.jar &
       pid=$!
       echo "Spring uruchomiony w tle pod PID $pid"
     fi
