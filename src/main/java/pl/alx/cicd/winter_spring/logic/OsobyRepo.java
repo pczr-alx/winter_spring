@@ -13,6 +13,20 @@ public class OsobyRepo {
         this.baza = new ConcurrentHashMap<>();
         this.baza.put("ala", new Osoba("Ala", "Ala ma kota"));
         this.baza.put("zosia", new Osoba("Zosia", "Samosia"));
+
+
+
+
+
+
+
+
+
+
+
+
+	this.baza.put("kamil", new Osoba("Kamil", "Klaczkiewicz"));
+
     }
 
     public Optional<Osoba> getOsoba(String imie) {
