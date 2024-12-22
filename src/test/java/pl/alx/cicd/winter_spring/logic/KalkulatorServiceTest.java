@@ -30,6 +30,11 @@ class KalkulatorServiceTest {
     }
 
     @Test
+    void obliczDzielenie() {
+        assertEquals(11, kalkulatorService.oblicz(33, 3, "/"));
+    }
+
+    @Test
     void testMock() {
         KalkulatorService kalk = mock(KalkulatorService.class);
         when(kalk.oblicz(20, 30, "%")).thenReturn(6L);
