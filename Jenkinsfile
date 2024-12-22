@@ -18,6 +18,7 @@ pipeline {
         success {
             echo 'This will run only if successful'
             archiveArtifacts artifacts: 'target/*.jar', fingerprint: true
+            sh 'cp target/winter_spring-0.0.1-SNAPSHOT.jar /home/agencik/apka/apka.jar'
         }
         failure {
             echo 'This will run only if failed'
